@@ -9,7 +9,7 @@ public class EditLead extends OpentapsWrappers{
 	public EditLead() {
 
 		if(!verifyTitle("opentaps CRM")){
-			Reporter.reportStep("This is NOT Edit Lead page", "FAIL");
+			Reporter.reportStep("This is NOT Edit Lead pages", "FAIL");
 		}
 
 	}
